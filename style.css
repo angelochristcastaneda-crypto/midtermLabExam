@@ -1,0 +1,323 @@
+/* GENERAL */
+
+body {
+font-family: Arial, sans-serif;
+background-color: #0b0b0f;
+color: white;
+scroll-behavior: smooth;
+}
+
+section {
+padding: 80px 0;
+}
+
+h2 {
+color: #a970ff;
+font-weight: bold;
+}
+
+h3 {
+color: #b77aff;
+}
+
+/* NAVBAR */
+
+.navbar {
+background-color: #070709 !important;
+border-bottom: 1px solid #6f42c1;
+padding: 14px 0;
+}
+
+.navbar-brand {
+color: #a970ff !important;
+font-size: 26px;
+}
+
+.nav-link {
+color: white !important;
+margin-left: 15px;
+font-size: 18px;
+padding: 10px 5px !important;
+}
+
+.nav-link:hover {
+color: #a970ff !important;
+}
+
+/* HERO */
+
+.hero {
+background: linear-gradient(
+135deg,
+#050505,
+#1a0b2b,
+#5b2a86
+);
+min-height: 600px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.hero h1 {
+font-size: 50px;
+font-weight: bold;
+}
+
+.hero p {
+max-width: 700px;
+margin: 20px auto;
+color: #dddddd;
+}
+
+/* BUTTONS */
+
+.btn-primary {
+background-color: #7b3fc6;
+border-color: #7b3fc6;
+}
+
+.btn-primary:hover {
+background-color: #9b5de5;
+border-color: #9b5de5;
+}
+
+/* BADGE */
+
+.badge {
+background-color: #7b3fc6 !important;
+padding: 8px 14px;
+}
+
+/* ALERT */
+
+.alert {
+background-color: #241438;
+color: #e4d2ff;
+border: 1px solid #6f42c1;
+}
+
+/* CARDS */
+
+.card {
+background-color: #15151c;
+color: white;
+border: 1px solid #3d2058;
+border-radius: 15px;
+}
+
+.card:hover {
+transform: translateY(-5px);
+transition: 0.3s;
+border-color: #8e4de8;
+box-shadow: 0 10px 25px rgba(128, 55, 200, 0.25);
+}
+
+.card h5 {
+color: #b77aff;
+}
+
+.card p {
+color: #d0d0d0;
+}
+
+/* PROFILE IMAGE */
+
+.profile-img {
+width: 350px;
+height: 350px;
+object-fit: cover;
+border-radius: 50%;
+border: 5px solid #7b3fc6;
+}
+
+/* DARK SECTION */
+
+.dark-section {
+background-color: #101015;
+}
+
+/* SKILLS */
+
+.skill {
+margin-bottom: 25px;
+}
+
+.progress {
+height: 25px;
+background-color: #292933;
+}
+
+.progress-bar {
+background-color: #7b3fc6;
+}
+
+/* GALLERY */
+
+.gallery-card {
+overflow: hidden;
+}
+
+.gallery-card img {
+height: 280px;
+object-fit: cover;
+}
+
+.gallery-card img:hover {
+transform: scale(1.05);
+transition: 0.4s;
+}
+
+/* CAROUSEL */
+
+.carousel img {
+height: 500px;
+object-fit: cover;
+border-radius: 15px;
+}
+
+/* ACCORDION */
+
+.accordion-item {
+background-color: #15151c;
+border-color: #3d2058;
+color: white;
+}
+
+.accordion-button {
+background-color: #1b1028;
+color: white;
+}
+
+.accordion-button:not(.collapsed) {
+background-color: #6f42c1;
+color: white;
+}
+
+.accordion-button:focus {
+box-shadow: none;
+}
+
+/* FORMS */
+
+.form-control,
+.form-select {
+background-color: #1a1a21;
+color: white;
+border: 1px solid #4b286b;
+}
+
+.form-control::placeholder {
+color: #999999;
+}
+
+.form-control:focus,
+.form-select:focus {
+background-color: #1a1a21;
+color: white;
+border-color: #9b5de5;
+box-shadow: 0 0 0 0.2rem rgba(155, 93, 229, 0.2);
+}
+
+.form-label {
+color: #d8bfff;
+}
+
+/* MODAL */
+
+.modal-content {
+background-color: #15151c;
+color: white;
+border: 1px solid #6f42c1;
+}
+
+.modal-header {
+border-bottom: 1px solid #3d2058;
+}
+
+.modal-title {
+color: #b77aff;
+}
+
+/* FOOTER */
+
+footer {
+background-color: #050507;
+color: #aaaaaa;
+padding: 60px 20px;
+text-align: center;
+border-top: 1px solid #3d2058;
+}
+
+footer h4 {
+color: #c260e6;
+margin-bottom: 20px;
+}
+
+.footer-contact p {
+margin: 8px 0;
+}
+
+.footer-contact strong {
+color: #d8bfff;
+}
+
+footer hr {
+border-color: #3d2058;
+margin: 35px auto;
+max-width: 700px;
+}
+
+/* FOOTER CONTACT FORM */
+
+.footer-form {
+max-width: 700px;
+margin: 0 auto;
+}
+
+.footer-form .card {
+text-align: left;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+
+.navbar {
+    padding: 12px 0;
+}
+
+.navbar-brand {
+    font-size: 23px;
+}
+
+.nav-link {
+    font-size: 17px;
+    margin-left: 0;
+}
+
+.hero {
+    min-height: 500px;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+}
+
+.carousel img {
+    height: 300px;
+}
+
+section {
+    padding: 60px 15px;
+}
+
+
+}
